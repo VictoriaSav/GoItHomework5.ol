@@ -639,8 +639,12 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+
+
+.portfolio_item:focus .portfolio-description,
 .portfolio_item:hover .portfolio-description {
   transform: translateY(0);
+  opacity: 1;
 }
 
 .thumb {
@@ -648,11 +652,7 @@ img {
   overflow: hidden;
 }
 
-.our-projects .portfolio-description:hover {
-  opacity: 1;
-}
 
-/* halo */
 .portfolio-description {
   transform: translateY(100%);
   opacity: 0;

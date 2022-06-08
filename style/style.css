@@ -13,6 +13,7 @@
   --color-what-we-do-text: rgba(47, 48, 58, 0.8);
   --wiew-port-grey-clr: rgba(0, 0, 0, 0.2);
   --primary-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --hero-button-hover: #188ce8;
 }
 
 html {
@@ -244,7 +245,9 @@ img {
 }
 
 .contact:hover,
-.contact_header:hover {
+.contact:focus,
+.contact_header:hover,
+.contact_header:focus {
   color: var(--accent-color);
 }
 /*--------------Body--------------*/
@@ -278,6 +281,10 @@ img {
   margin-bottom: 30px;
 }
 
+.big_banner_btn:hover {
+  background-color: var(--hero-button-hover);
+}
+
 .big_banner_btn {
   cursor: pointer;
   font-family: inherit;
@@ -302,7 +309,8 @@ img {
     var(--primary-cubic);
 }
 
-.big_banner_btn:hover {
+.big_banner_btn:hover,
+.big_banner_btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }

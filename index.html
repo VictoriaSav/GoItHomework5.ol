@@ -46,7 +46,7 @@
                 <h1 class="big_banner_text">эффективные решения для 
                     вашего бизнеса
                 </h1> 
-                <button type="submit" class="big_banner_btn">Заказать услугу</button>
+                <button data-modal-open type="submit" class="big_banner_btn" >Заказать услугу</button>
             </div>
             </section>
             <!--About Us-->
@@ -404,5 +404,15 @@
                 </div>
             </footer>
     </main>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="close-svg" width="30" height="30">  
+                    <use href="./img/styles.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

@@ -281,7 +281,8 @@ img {
   margin-bottom: 30px;
 }
 
-.big_banner_btn:hover {
+.big_banner_btn:hover,
+.big_banner_btn:focus {
   background-color: var(--hero-button-hover);
 }
 

@@ -643,6 +643,7 @@ img {
   opacity: 1;
 }
 
+/* halo */
 .portfolio-description {
   transform: translateY(100%);
   opacity: 0;
